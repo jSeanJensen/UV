@@ -31,6 +31,7 @@ public class MemberRepository {
 
     @Inject
     private EntityManager em;
+    // New comment
 
     public Member findById(Long id) {
         return em.find(Member.class, id);
